@@ -27,17 +27,24 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Plugin example app'),
+          title: const Text('Number Pad app'),
         ),
         body: Column(
           children: [
-            Center(
-              child: Text("code = ${code}"),
+            GestureDetector(
+              onTap: (){
+                print(33);
+                NumberPad.shuffle();
+              },
+              child: Center(
+                child: Text("code = ${code}"),
+              ),
             ),
             const Spacer(),
             NumberPad(
               onChange: (value){
                 setState(() {
+                  print(value);
                   code = value;
                 });
               },
