@@ -1,7 +1,7 @@
 name: number_pad
-description: A new flutter plugin project.
-version: 0.0.1
-homepage:
+description: You use Number Pad (with. random)
+version: 1.0.0
+homepage: https://github.com/nine-one91/number_pad_flutter
 
 environment:
   sdk: ">=2.16.1 <3.0.0"
