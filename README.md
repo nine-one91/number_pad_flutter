@@ -4,6 +4,8 @@ easy to use number pad library for Flutter
 
  [![Flutter](https://img.shields.io/badge/Platform-Flutter-blue.svg)](https://flutter.dev/)
 
+## GIF
+![NumberPadDemo](https://github.com/nine-one91/number_pad_flutter/blob/main/content.gif)
 
 ## 💻 Installation
 
